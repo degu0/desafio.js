@@ -8,7 +8,7 @@ while (contador < 21){
     numeroLista = lista[contador];
     if (numeroLista % 2 == 0) {
         listaPar.push(numeroLista);
-        contador++
+        contador++;
     }else if (numeroLista % 2 != 0){
         listaImpar.push(numeroLista);
         contador++;
@@ -28,6 +28,7 @@ while(contador <= listaPar.length){
      }
     contador++;
 }
+
 console.log("O maior numero par do array é "+valor1+". E o segundo maior é "+valor2);
 
 contador = 0;
@@ -35,9 +36,9 @@ let valorI1 = 0;
 let valorI2 = null;
 while(contador <= listaImpar.length){
     if(listaImpar[contador] > valorI1){
-        valorI1 = listaImpar[contador];
+            valorI1 = listaImpar[contador];
     }else{
-       if(listaPar[contador] > valorI2){
+       if(listaImpar[contador] > valorI2){
            valorI2 = listaImpar[contador];
        }   
     }
@@ -45,3 +46,4 @@ while(contador <= listaImpar.length){
 }
 
 console.log("O maior numero impar do array é "+valorI1+". E o segundo maior é "+valorI2);
+
