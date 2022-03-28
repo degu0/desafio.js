@@ -21,8 +21,6 @@ let valor2 = null;
 while(contador <= listaPar.length){
      if(listaPar[contador] > valor1){
          valor1 = listaPar[contador];
-     }else if(listaPar[contador] > valor1){
-         valor2 = listaPar[contador];
      }else{
         if(listaPar[contador] > valor2){
             valor2 = listaPar[contador];
@@ -38,8 +36,6 @@ let valorI2 = null;
 while(contador <= listaImpar.length){
     if(listaImpar[contador] > valorI1){
         valorI1 = listaImpar[contador];
-    }else if(listaImpar[contador] > valorI1){
-        valorI2 = listaImpar[contador];
     }else{
        if(listaPar[contador] > valorI2){
            valorI2 = listaImpar[contador];
